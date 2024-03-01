@@ -58,7 +58,7 @@ const Frame1 = () => {
                 </div>
             </div>
             </Link>
-            <Link to="/combo3">
+            <Link to="/combo3/:productID">
             <div style={{boxSizing: 'border-box',
                         position: 'absolute',
                         width: '400px',
@@ -104,7 +104,7 @@ const Frame1 = () => {
                 </div>
             </div>
             </Link>
-            <Link to="/combo2">
+            <Link to="/combo2/:productID">
             <div style={{boxSizing: 'border-box',
                         position: 'absolute',
                         width: '400px',
@@ -217,7 +217,7 @@ const Frame1 = () => {
                             top: '15px',
                             backgroundSize: 'cover',
                             borderRadius: '15px',
-                            background: 'url(/Burger/2.jpg)'}}>
+                            background: 'url(/Burger/47.jpg)'}}>
                 </div>
                 <div style={{position: 'absolute',
                             width: '355px',
@@ -231,7 +231,7 @@ const Frame1 = () => {
                             lineHeight: '24px',
                             display: 'flex',
                             alignItems: 'center',
-                            color: '#000000'}}>French Fries With Classic Seasoning
+                            color: '#000000'}}>Coca Cola
                 </div>
                 <div style={{position: 'absolute',
                             width: '129px',
@@ -245,7 +245,7 @@ const Frame1 = () => {
                             lineHeight: '24px',
                             display: 'flex',
                             alignItems: 'center',
-                            color: 'rgba(0, 0, 0, 0.7)'}}>40.000đ
+                            color: 'rgba(0, 0, 0, 0.7)'}}>20.000đ
                 </div>
                 <img src={require(`./add.jpg`)} alt="" style={{ marginLeft: '495px', marginTop:'82px', width: '35px', height: '35px' }} />
             </div>
@@ -264,7 +264,7 @@ const Frame1 = () => {
                             top: '15px',
                             backgroundSize: 'cover',
                             borderRadius: '15px',
-                            background: 'url(/Burger/2.jpg)'}}>
+                            background: 'url(/Burger/48.jpg)'}}>
                 </div>
                 <div style={{position: 'absolute',
                             width: '355px',
@@ -278,7 +278,7 @@ const Frame1 = () => {
                             lineHeight: '24px',
                             display: 'flex',
                             alignItems: 'center',
-                            color: '#000000'}}>French Fries With Cheese Powder
+                            color: '#000000'}}>Pepsi
                 </div>
                 <div style={{position: 'absolute',
                             width: '129px',
@@ -292,7 +292,7 @@ const Frame1 = () => {
                             lineHeight: '24px',
                             display: 'flex',
                             alignItems: 'center',
-                            color: 'rgba(0, 0, 0, 0.7)'}}>40.000đ
+                            color: 'rgba(0, 0, 0, 0.7)'}}>20.000đ
                 </div>
                 <img src={require(`./add.jpg`)} alt="" style={{ marginLeft: '495px', marginTop:'82px', width: '35px', height: '35px' }} />
             </div>
@@ -311,7 +311,7 @@ const Frame1 = () => {
                             top: '15px',
                             backgroundSize: 'cover',
                             borderRadius: '15px',
-                            background: 'url(/Burger/3.jpg)'}}>
+                            background: 'url(/Burger/49.jpg)'}}>
                 </div>
                 <div style={{position: 'absolute',
                             width: '355px',
@@ -325,7 +325,7 @@ const Frame1 = () => {
                             lineHeight: '24px',
                             display: 'flex',
                             alignItems: 'center',
-                            color: '#000000'}}>Coleslaw Salad
+                            color: '#000000'}}>7up
                 </div>
                 <div style={{position: 'absolute',
                             width: '129px',
@@ -339,7 +339,7 @@ const Frame1 = () => {
                             lineHeight: '24px',
                             display: 'flex',
                             alignItems: 'center',
-                            color: 'rgba(0, 0, 0, 0.7)'}}>40.000đ
+                            color: 'rgba(0, 0, 0, 0.7)'}}>20.000đ
                 </div>
                 <img src={require(`./add.jpg`)} alt="" style={{ marginLeft: '495px', marginTop:'82px', width: '35px', height: '35px' }} />
             </div>
@@ -351,7 +351,7 @@ const Frame1 = () => {
     
   );
 };
-export default function ComboDetail() {
+export default function ComboDetail3() {
   return (
     <div className="px-20">
       < Frame1 />

@@ -7,11 +7,11 @@ import {
   ShipDetail,
   PaymentSuccess,
 } from '../pages';
-import { Admin, Blogpost, ContactUs, UserInfo } from '../pages';
+import { Admin, ContactUs, UserInfo } from '../pages';
 import { Order } from '../pages';
 import { OrderDetail } from '../pages';
-import { ProductDetail } from '../pages';
-import { Burger, Combo, Sidedish, Sandwich, Hotdog, Baguette, Pizza, Drink, ComboDetail } from '../pages';
+import { ProductDT } from '../pages';
+import { Burger, Combo, Sidedish, Sandwich, Hotdog, Baguette, Pizza, Drink, ComboDetail, ComboDetail2, ComboDetail3 } from '../pages';
 
 
 const router = [
@@ -27,13 +27,15 @@ const router = [
   { path: '/cart', component: Cart },
   { path: '/ship-detail', component: ShipDetail },
   { path: '/payment-success', component: PaymentSuccess },
-  { path: '/foundation/:productId', component:ProductDetail  },
-  { path: '/blusher&highlighter/:productId', component:ProductDetail  },
-  { path: '/makeupbase/:productId', component:ProductDetail  },
-  { path: '/power&pact/:productId', component:ProductDetail  },
-  { path: '/concealer/:productId', component:ProductDetail  },
-  { path: '/cushion/:productId', component:ProductDetail  },
-  { path: '/category/:productId', component:ProductDetail  },
+
+  { path: '/sidedish/:productId', component:ProductDT  },
+  { path: '/burger/:productId', component:ProductDT  },
+  { path: '/sandwich/:productId', component:ProductDT  },
+  { path: '/pizza/:productId', component:ProductDT  },
+  { path: '/hotdog/:productId', component:ProductDT  },
+  { path: '/baguette/:productId', component:ProductDT  },
+  { path: '/drink/:productId', component:ProductDT  },
+
 
   { path: '/burger', component: Burger },
   { path: '/combo', component: Combo },
@@ -44,6 +46,8 @@ const router = [
   { path: '/hotdog', component: Hotdog},
   { path: '/drink', component: Drink },
   { path: '/combo/:productID', component: ComboDetail },
+  { path: '/combo2', component: ComboDetail2 },
+  { path: '/combo3', component: ComboDetail3 },
 
 
 

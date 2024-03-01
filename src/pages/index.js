@@ -14,8 +14,7 @@ export { default as Blogpost } from './Blogpost/Blogpost';
 export { default as PaymentSuccess } from './Payment/PaymentSuccess';
 export { default as ManageVoucher } from './Dashboard/Voucher/ManageVoucher';
 
-export { default as ProductDetail } from './Product/Product_Detail';
-
+export { default as ProductDT } from './Product/ProductDT';
 
 export { default as Burger } from './Product/Burger';
 export { default as Combo } from './Product/Combo';
@@ -26,3 +25,5 @@ export { default as Hotdog } from './Product/Hotdog';
 export { default as Baguette } from './Product/Baguette';
 export { default as Drink } from './Product/Drink';
 export { default as ComboDetail } from './Product/ComboDetail';
+export { default as ComboDetail2 } from './Product/ComboDetail2';
+export { default as ComboDetail3 } from './Product/ComboDetail3';
