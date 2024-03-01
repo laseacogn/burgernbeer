@@ -121,6 +121,7 @@ function Header() {
                   <Link to="/combo">Shop</Link>
                 </div>
 
+
                 <div style={{fontFamily: '"inter", sans-serif', fontSize: '20px', marginRight:'30px'}} className="text-black hover:text-red-500">
                   <Link to="/https://www.siliconii.com/">Location</Link>
                 </div>
@@ -131,7 +132,7 @@ function Header() {
               {hasUser ? (
                 <div className="flex md:order-2 text-black">
                   <div className="flex items-center justify-center">
-                    <Link to="/">
+                    <Link to="/cart">
                       <div className="w-10 h-10 rounded-full border border-black flex items-center justify-center mr-2 hover:bg-btnprimary hover:text-[#B4E9D6] ">
                         <icons.BsCart4 />
                       </div>

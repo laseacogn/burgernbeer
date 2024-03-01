@@ -65,9 +65,7 @@ const product =[
     {id: 68, name: "7up", image: "49.jpg", originalPrice: 20.00, discountPercent: 5},
 ]
 
-// FrameComponent.js
-
-// FrameComponent.js
+// Frame1.js
 const Frame1 = () => {
     const frame1Styles = {
     boxSizing: 'border-box',
@@ -86,9 +84,9 @@ const Frame1 = () => {
     height: '70px',
     zIndex: '2',
     background:'url(/images/pic/01.jpg)',
-    backgroundSize: 'cover', // Make the image cover the container
+    backgroundSize: 'cover',
     backgroundPosition: 'center',
-    borderRadius: '15px', // Center the imagefit
+    borderRadius: '15px', 
   };
 
   const textStyles = {
@@ -218,8 +216,8 @@ export default function ProductDT() {
             <div style={{
                   width: '238px',
                   height: '42.5px',
-                  backgroundColor: '#ee2f49', // Đỏ
-                  color: '#FFFFFF', // Trắng
+                  backgroundColor: '#ee2f49', 
+                  color: '#FFFFFF', 
                   textAlign: 'center',
                   fontSize: '16px',
                   fontWeight: 'bold',
@@ -230,8 +228,8 @@ export default function ProductDT() {
             <div style={{ 
                   width: '238px',
                   height: '42.5px',
-                  backgroundColor: 'white', // Đỏ
-                  color: 'black', // Trắng
+                  backgroundColor: 'white', 
+                  color: 'black', 
                   border: '0.5px solid black',
                   textAlign: 'center',
                   fontSize: '16px',

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
 const Home = () => {
   return (
     <>
@@ -75,7 +76,7 @@ const Home = () => {
         </div>
       </div>
       <div className="max-w-[1200px] mx-auto ">
-      <div  className="max-w-[1200px] mx-auto" style={{position: 'absolute', width: '1200px', height: '1100px', left: '158px', top: '900px', filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))'}}>
+      <div style={{position: 'absolute', width: '1200px', height: '1100px', left: '158px', top: '900px', filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))'}}>
         <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: '30px'}}>
           <Link to="/burger"> <span style={{ cursor: 'pointer' }}><img src={require('./1.jpg')} alt="" style={{width: '380px', height: '380px'}} /></span></Link>
           <Link to="/sidedish"><span style={{ cursor: 'pointer' }}><img src={require('./2.jpg')} alt="" style={{width: '380px', height: '380px'}} /></span></Link>
