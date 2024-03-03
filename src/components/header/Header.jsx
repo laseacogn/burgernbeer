@@ -142,11 +142,11 @@ function Header() {
                     arrowIcon={true}
                     inline
                     label={
-                      <Avatar
-                        alt="User settings"
-                        img="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
-                        rounded
-                      />
+                      <div className="avatar">
+                        <div className="w-10 rounded-full">
+                          <img src={require(`../../images/avatar.png`) } alt="" />
+                        </div>
+                      </div>
                     }
                   >
                     <Dropdown.Header>
@@ -158,12 +158,12 @@ function Header() {
                       </span>
                     </Dropdown.Header>
                     {/* {auth.role === "admin" && ( */}
-                    <Link to="/">
+                    <Link to="/admin">
                       <Dropdown.Item>DASHBOARD</Dropdown.Item>
                     </Link>
                     {/* )} */}
 
-                    <Link to="/">
+                    <Link to="/user">
                       <Dropdown.Item>PROFILE</Dropdown.Item>
                     </Link>
                     <Dropdown.Divider />

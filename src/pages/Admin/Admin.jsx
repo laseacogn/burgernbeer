@@ -9,6 +9,7 @@ import { TiTicket } from 'react-icons/ti';
 
 export function Admin() {
   return (
+    <div className="max-w-[1200px] mx-auto " >
     <div className="flex gap-2">
       <div className="min-w-72 bg-blue-100 rounded-md p-8">
         <div className="flex flex-col h-full">
@@ -67,11 +68,11 @@ export function Admin() {
         </div>
       </div>
       <div className="w-full flex flex-col">
-        <button className="bg-blue-500 text-white text-base font-medium px-4 py-2 rounded self-end mr-20 shadow-md">
+        <button className="bg-[#4B4949] text-white text-base font-medium px-4 py-2 rounded self-end mr-20 shadow-md">
           Logout
         </button>
         <div className="flex flex-col text-slate-500">
-          <p className="text-center text-xl font-medium p-2">User Manager</p>
+          <p className="text-center text-2xl font-medium p-2 text-black">User Manager</p>
           <div className="flex justify-between pr-8 gap-4 text-lg font-semibold">
             <div className="flex flex-col gap-2">
               <label htmlFor="name">Search by Name</label>
@@ -111,46 +112,47 @@ export function Admin() {
               <p>Adress</p>
             </div>
             <div className="grid grid-cols-6 mt-4 break-words items-center gap-2">
-              <p className="text-blue-500">000312</p>
-              <p className="text-blue-500">Vu Ha Nam</p>
+              <p className="text-blue-500">000001</p>
+              <p className="text-blue-500">Pham Thi Yen Ngoc</p>
               <p>1</p>
-              <p>0905444123</p>
-              <p className="">quachtinh@gmail.com</p>
-              <p className="">K82 Nguyen Luong Bang, Lien Chieu, Da Nang</p>
+              <p>0564751400</p>
+              <p className="">phamyenngoc.02@gmail.com</p>
+              <p className="">26 An Thuong 4, Ngu Hanh Son, Da Nang</p>
             </div>
             <div className="grid grid-cols-6 mt-4 break-words items-center gap-2">
-              <p className="text-blue-500">000232</p>
-              <p className="text-blue-500">Vu Nam Ha</p>
+              <p className="text-blue-500">000002</p>
+              <p className="text-blue-500">Lasea Cogn</p>
               <p>1</p>
-              <p>0905444123</p>
-              <p className="text-wrap">thandieudaihiep@gmail.com</p>
+              <p>0837018566</p>
+              <p className="text-wrap">lasea02@gmail.com</p>
               <p className="text-wrap">
-                K82 Nguyen Luong Bang, Lien Chieu, Da Nang
+                30 An Thuong 36, Ngu Hanh Son, Da Nang
               </p>
             </div>
             <div className="grid grid-cols-6 mt-4 break-words items-center gap-2">
-              <p className="text-blue-500">000213</p>
-              <p className="text-blue-500">Nam Vu Ha</p>
+              <p className="text-blue-500">000003</p>
+              <p className="text-blue-500">Nguyen Thu Huyen</p>
               <p>1</p>
-              <p>0905444123</p>
-              <p className="">tieulongnu@gmail.com</p>
+              <p>09670124565</p>
+              <p className="">huyendr98@gmail.com</p>
               <p className="text-wrap">
-                K82 Nguyen Luong Bang, Lien Chieu, Da Nang
+                01 Vu Dinh Long, Son Tra, Da Nang
               </p>
             </div>
             <div className="grid grid-cols-6 mt-4 break-words items-center gap-2">
-              <p className="text-blue-500">000455</p>
-              <p className="text-blue-500">Nam Ha Vu</p>
+              <p className="text-blue-500">000004</p>
+              <p className="text-blue-500">Hoang Nguyen Linh Chi</p>
               <p>1</p>
-              <p>0905444123</p>
-              <p className="text-balance">duongqua@gmail.com</p>
+              <p>0899005579</p>
+              <p className="text-balance">lyncii0920@gmail.com</p>
               <p className="text-wrap">
-                K82 Nguyen Luong Bang, Lien Chieu, Da Nang
+                12 Trung Nu Vuong, Hai Chau, Da Nang
               </p>
             </div>
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

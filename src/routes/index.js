@@ -7,7 +7,7 @@ import {
   ShipDetail,
   PaymentSuccess,
 } from '../pages';
-import { Admin, ContactUs, UserInfo } from '../pages';
+import { Admin, ContactUs, UserInfo} from '../pages';
 import { Order } from '../pages';
 import { OrderDetail } from '../pages';
 import { ProductDT } from '../pages';

@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { FiPhoneCall } from 'react-icons/fi';
 import { MdOutlineMailOutline } from 'react-icons/md';
 import { FaLocationDot } from 'react-icons/fa6';
@@ -16,7 +15,7 @@ export function ContactUs() {
         </p>
       </div>
       <div className="grid grid-cols-3 gap-8 p-8" >
-        <div className="bg-[#5fadf7] text-white font-bold text-xl text-center flex gap-3 flex-col rounded-xl py-4" style={{padding: '25px 15px 0 0', margin: '0 -20px -15px 190px'}}>
+        <div className="bg-[#4B4949] text-white font-bold text-xl text-center flex gap-3 flex-col rounded-xl py-4" style={{padding: '25px 15px 0 0', margin: '0 -20px -15px 190px'}}>
           <p>Contact Infomation</p>
           <p className="font-medium text-sm">
             Say something to start live chat!
@@ -85,7 +84,7 @@ export function ContactUs() {
             ></textarea>
           </div>
           <button
-            className="rounded bg-[#5fadf7] text-white font-medium px-4 py-2 mt-4 self-end"
+            className="rounded bg-[#4B4949] text-white font-medium px-4 py-2 mt-4 self-end"
             type="submit"
           >
             Send message
