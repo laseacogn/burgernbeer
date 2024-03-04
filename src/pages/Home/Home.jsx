@@ -74,9 +74,8 @@ const Home = () => {
                 </div>
           </div>
         </div>
-      </div>
-      <div className="max-w-[1200px] mx-auto ">
-      <div style={{position: 'absolute', width: '1200px', height: '1100px', left: '158px', top: '900px', filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))'}}>
+      
+      <div style={{ width: '1200px', left: '158px', paddingTop: '30px', filter: 'drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))'}}>
         <div style={{display: 'flex', justifyContent: 'space-between', marginBottom: '30px'}}>
           <Link to="/burger"> <span style={{ cursor: 'pointer' }}><img src={require('./1.jpg')} alt="" style={{width: '380px', height: '380px'}} /></span></Link>
           <Link to="/sidedish"><span style={{ cursor: 'pointer' }}><img src={require('./2.jpg')} alt="" style={{width: '380px', height: '380px'}} /></span></Link>
@@ -87,20 +86,43 @@ const Home = () => {
           <Link to="/sidedish"><span style={{ cursor: 'pointer' }}><img src={require('./5.jpg')} alt="" style={{width: '380px', height: '380px'}} /></span></Link>
           <Link to="/pizza"><span style={{ cursor: 'pointer' }}><img src={require('./6.jpg')} alt="" style={{width: '380px', height: '380px'}} /></span></Link>
         </div>
-      </div>
-      </div>
-      <div>
-        <img src={require('./lgburger.jpg')} alt="" style={{width: '114px', height: '114px', marginLeft:'700px', marginTop:'840px', marginBottom:'875px'}} />
-      </div>
-          <div style={{ position: 'absolute',
-                        width: '960px',
-                        height: '200px',
-                        left: '400px',
-                        top: '2130px',
-                        background: 'rgba(6, 101, 21, 0.81)',
+        <div className='flex flex-col gap-8'>
+          <img className='mx-auto' src={require('./lgburger.jpg')} alt="" style={{width: '114px', height: '114px'}} />
+        <Link to="/combo">
+          <span>
+            <div style={{
+                        cursor: 'pointer',
+                        width: '346px',
+                        height: '85px',
+                        marginLeft: '425px',
+                        //marginTop: '-870px',
+                        background: 'rgba(0, 0, 0, 0.81)',
                         boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
                         borderRadius: '15px',
-                        transform: 'matrix(1, 0, 0, 1, 0, 0)'}}>
+                        transform: 'matrix(1, 0, 0, 1, 0, 0)'
+                        }}>
+              <p style={{ position: 'absolute',
+                        cursor: 'pointer',          
+                        width: '346px',
+                        height: '85px',
+                        left: '70px',
+                        top: '0px',
+                        fontFamily: '"Inter", sans-serif',
+                        fontStyle: 'normal',
+                        fontWeight: '600',
+                        fontSize: '30px',
+                        lineHeight: '39px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        textAlign: 'center'}}
+                  className="text-white hover:text-red-500"> View Our Menu  
+              </p>
+            </div>
+          </span>
+        </Link>
+      </div>
+      <div className='mb-4 w-[960px] h-[200px] relative bg-[#066515cf] mt-40 rounded-2xl translate-x-60'>
+      <div>
             <p style={{ position: 'absolute',
                         width: '960px',
                         height: '200px',
@@ -131,17 +153,18 @@ const Home = () => {
                         textAlign: 'center',
                         color: '#FFFFFF',}}> Their first foray into burgers started 10 years ago. Now, the two Burger Bros are teaming up to bring 100% Angus beef burgers, shakes, wings, and fries to their community. Because when hunger strikes, there’s nothing like a good old-fashioned burger!
             </p>
-            <img src={require('./pic2.jpg')} alt="" style={{height: '700px', marginLeft:'-240px', marginTop:'-420px', marginBottom:'1440px'}} />
+            <img src={require('./pic2.jpg')} alt="" style={{
+              height: '700px',
+              position:'absolute',
+              left:'-240px',
+              top:'-410px',
+              zIndex:1
+
+              }} />
           </div>
-          <div style={{ position: 'absolute',
-                        width: '960px',
-                        height: '200px',
-                        left: '163px',
-                        top: '2450px',
-                        background: 'rgb(184 26 26 / 81%)',
-                        boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
-                        borderRadius: '15px',
-                        transform: 'matrix(1, 0, 0, 1, 0, 0)'}}>
+      </div>
+         <div className='mb-4 w-[960px] h-[200px] relative bg-[#b81a1acf] rounded-2xl mt-36'>
+         <div>
             <p style={{ position: 'absolute',
                         width: '960px',
                         height: '200px',
@@ -171,42 +194,22 @@ const Home = () => {
                         textAlign: 'center',
                         color: '#FFFFFF',}}> Have been there several times now. I am always impressed with the service and food quality. All of the employees are young but they are professional and do a great job. I have never had a bad meal there. Great burger and sandwiches.
             </p>
-            <img src={require('./pic3.jpg')} alt="" style={{height: '453px', marginLeft:'750px', marginTop:'-190px', marginBottom:'1440px'}} />
+            <img src={require('./pic3.jpg')} alt="" style={{
+              position:'absolute',
+              top:'-240px',
+              right:'-240px',
+              height: '453px'}} />
           </div>
-        <Link to="/combo">
-          <span>
-            <div style={{ position: 'absolute',
-                        cursor: 'pointer',
-                        width: '346px',
-                        height: '85px',
-                        left: '590px',
-                        marginTop: '-870px',
-                        background: 'rgba(0, 0, 0, 0.81)',
-                        boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
-                        borderRadius: '15px',
-                        transform: 'matrix(1, 0, 0, 1, 0, 0)'}}>
-              <p style={{ position: 'absolute',
-                        cursor: 'pointer',          
-                        width: '346px',
-                        height: '85px',
-                        left: '70px',
-                        top: '0px',
-                        fontFamily: '"Inter", sans-serif',
-                        fontStyle: 'normal',
-                        fontWeight: '600',
-                        fontSize: '30px',
-                        lineHeight: '39px',
-                        display: 'flex',
-                        alignItems: 'center',
-                        textAlign: 'center'}}
-                  className="text-white hover:text-red-500"> View Our Menu  
-              </p>
-            </div>
-          </span>
-        </Link>
+         </div>
+          
+      </div>
+      </div>
+      
+      
+         
+        
     </>
   );
 };
 export default Home;
-
 

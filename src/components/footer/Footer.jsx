@@ -9,7 +9,7 @@ import { icons } from '../../utils/icons';
 const Footer = () => {
   return (
     <div id="footer">
-      <div style={{ width: '1200px', height:'220px', margin: '10px auto', position: 'relative', backgroundColor:'black',  color: '#FFFFFF', }} >
+      <div style={{ width: '1200px', height:'220px', margin: '10px auto', backgroundColor:'black',  color: '#FFFFFF', }} >
         <div>
           <div>
              <p style={{width:'400px', paddingTop:'9px',marginLeft:'0px',fontFamily: '"inter", sans-serif', fontWeight: 'bold', fontSize: '30px', textAlign: 'center', color: 'white'}}> BURGER N' BEER</p>

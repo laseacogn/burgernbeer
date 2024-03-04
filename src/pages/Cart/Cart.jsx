@@ -186,7 +186,7 @@ const Cart = () => {
                     </button>
                    
                     <button type="button"
-                            className="w-full text-center bg-[#FF9FA0] text-white font-bold py-3 px-4 rounded hover:text-white" style={{ fontSize: '20px'}}>
+                            className="w-full text-center bg-[#4B4949] text-white font-bold py-3 px-4 rounded hover:text-white" style={{ fontSize: '20px'}}>
                         Payment
                     </button>
                 </div>
