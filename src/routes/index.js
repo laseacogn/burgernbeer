@@ -11,7 +11,7 @@ import { Admin, ContactUs, UserInfo} from '../pages';
 import { Order } from '../pages';
 import { OrderDetail } from '../pages';
 import { ProductDT } from '../pages';
-import { Burger, Combo, Sidedish, Sandwich, Hotdog, Baguette, Pizza, Drink, ComboDetail, ComboDetail2, ComboDetail3 } from '../pages';
+import { Burger, Combo, Sidedish, Sandwich, Hotdog, Baguette, Pizza, Drink, ComboDetail, ComboDetail2, ComboDetail3, Product } from '../pages';
 
 
 const router = [
@@ -48,6 +48,7 @@ const router = [
   { path: '/combo/:productID', component: ComboDetail },
   { path: '/combo2', component: ComboDetail2 },
   { path: '/combo3', component: ComboDetail3 },
+  { path: '/admin/product', component: Product },
 
 
 

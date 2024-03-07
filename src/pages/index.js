@@ -26,3 +26,4 @@ export { default as Drink } from './Product/Drink';
 export { default as ComboDetail } from './Product/ComboDetail';
 export { default as ComboDetail2 } from './Product/ComboDetail2';
 export { default as ComboDetail3 } from './Product/ComboDetail3';
+export { Product } from './Admin/Product';
