@@ -27,3 +27,7 @@ export { default as ComboDetail } from './Product/ComboDetail';
 export { default as ComboDetail2 } from './Product/ComboDetail2';
 export { default as ComboDetail3 } from './Product/ComboDetail3';
 export { Product } from './Admin/Product';
+export { Category } from './Admin/Category';
+export { Category_Baguette } from './Admin/Category';
+export { Category_Burger} from './Admin/Category';
+export { Category_Pizza} from './Admin/Category';

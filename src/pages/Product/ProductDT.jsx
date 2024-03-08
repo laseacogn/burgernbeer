@@ -173,10 +173,6 @@ export default function ProductDT() {
       
       <Frame1 />
       
-
-
-    
-     
       <div className="max-w-[1200px] mx-auto " style={{paddingLeft:'-55px', paddingRight:'5rem'}}>
       <div style={{position: 'relative', width: '1200px', height: '600px', background: '#FFE3E3', left: '0px', top:'30px', marginBottom:'65px', borderRadius: '15px'}}>
         <div><p style={{display: 'block', fontSize: '20px', textDecoration: 'underline',paddingTop: '7px',marginLeft:'80px'}} onClick={handleTextClick}> Go Back</p></div>

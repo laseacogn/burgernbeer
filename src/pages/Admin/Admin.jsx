@@ -4,7 +4,6 @@ import { FaChartLine, FaUser } from 'react-icons/fa';
 import { IoBagHandle } from 'react-icons/io5';
 import { MdOutlineCategory } from 'react-icons/md';
 import { TbBuildingWarehouse } from 'react-icons/tb';
-import { BiLogoBlogger } from 'react-icons/bi';
 import { TiTicket } from 'react-icons/ti';
 
 export function Admin() {
@@ -24,20 +23,20 @@ export function Admin() {
             </NavLink>
             <NavLink
               to="/admin"
-              className="flex gap-2 text-[#FFFFFF] items-center hover:cursor-pointer hover:bg-blue-200 rounded-md py-4 px-2 ease-in duration-300"
+              className="flex gap-2 text-[#50FAD1] items-center hover:cursor-pointer hover:bg-blue-200 rounded-md py-4 px-2 ease-in duration-300"
             >
               <FaUser />
-              <p className="text-[#FFFFFF]">User Management</p>
+              <p className="text-[#50FAD1]">User Management</p>
             </NavLink>
             <NavLink
-              to="/admin/product"
+              to="/admin/itemlist"
               className="flex gap-2 text-[#FFFFFF] items-center hover:cursor-pointer hover:bg-blue-200 rounded-md py-4 px-2 ease-in duration-300"
             >
               <IoBagHandle />
               <p className="text-[#FFFFFF]">Items List</p>
             </NavLink>
             <NavLink
-              to=""
+              to="/admin/category"
               className="flex gap-2 text-[#FFFFFF] items-center hover:cursor-pointer hover:bg-blue-200 rounded-md py-4 px-2 ease-in duration-300"
             >
               <MdOutlineCategory />
@@ -47,8 +46,8 @@ export function Admin() {
               to=""
               className="flex gap-2 text-[#FFFFFF] items-center hover:cursor-pointer hover:bg-blue-200 rounded-md py-4 px-2 ease-in duration-300"
             >
-              <BiLogoBlogger />
-              <p className="text-[#FFFFFF]">BlogPost</p>
+              <TbBuildingWarehouse />
+              <p className="text-[#FFFFFF]">Inventory List</p>
             </NavLink>
             <NavLink
               to=""
