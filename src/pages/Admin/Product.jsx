@@ -202,35 +202,34 @@ export function Product() {
     <div className="overflow-x-auto">
       <Table hoverable>
   <Table.Head>
-    
-    <Table.HeadCell>Item ID</Table.HeadCell>
-    <Table.HeadCell>Item Name</Table.HeadCell>
-    <Table.HeadCell>Category</Table.HeadCell>
-    <Table.HeadCell>Price</Table.HeadCell>
+    <Table.HeadCell className='text-center'>Item ID</Table.HeadCell>
+    <Table.HeadCell className='text-center'>Item Name</Table.HeadCell>
+    <Table.HeadCell className='text-center'>Category</Table.HeadCell>
+    <Table.HeadCell className='text-center'>Price</Table.HeadCell>
     <Table.HeadCell>
-      <span className="sr-only">Edit</span>
+      <span> </span>
     </Table.HeadCell>
     <Table.HeadCell>
-      <span className="sr-only">Edit</span>
+      <span> </span>
     </Table.HeadCell>
   </Table.Head>
   <Table.Body className="divide-y">
     {menuItems.map(item => (
-      <Table.Row key={item.id} className="bg-white dark:border-gray-700 dark:bg-gray-800">
+      <Table.Row key={item.id} className=" text-center bg-white dark:border-gray-700 dark:bg-gray-800">
         
-        <Table.Cell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
+        <Table.Cell className=" text-center whitespace-nowrap font-medium text-gray-900 dark:text-white">
           {item.id}
         </Table.Cell>
-        <Table.Cell>{item.name}</Table.Cell>
-        <Table.Cell>{item.category}</Table.Cell>
-        <Table.Cell>{item.price.toFixed(2)} $</Table.Cell>
+        <Table.Cell className='text-center'>{item.name}</Table.Cell>
+        <Table.Cell className='text-center'>{item.category}</Table.Cell>
+        <Table.Cell className='text-center'>{item.price.toFixed(2)} $</Table.Cell>
         <Table.Cell>
-          <a href="#" className="font-medium text-cyan-600 hover:underline dark:text-cyan-500">
+          <a href="#" className="text-center font-medium text-cyan-600 hover:underline dark:text-cyan-500">
             <img src={require(`../../images/Burger/pen.jpg`) } alt="" className='w-[20px] ml-[85px]'></img>
           </a>
           </Table.Cell>
         <Table.Cell>
-          <a href="#" className="font-medium hover:underline dark:text-cyan-500">
+          <a href="#" className=" text-center font-medium hover:underline dark:text-cyan-500">
             <MdDelete className='text-base' />
           </a>
         </Table.Cell>
@@ -240,8 +239,6 @@ export function Product() {
 </Table>
 
     </div>
-           
-     
      </div>
      </div>
      </div>

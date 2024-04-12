@@ -165,7 +165,7 @@ export function Category() {
               <NavLink to="/admin/category/sidedish">
              <img src={require(`../../images/Burger/pen.jpg`) } alt="" className='w-[20px] ml-[85px]'></img></NavLink>
             </div>
-            
+
         </div>
      </div>
      </div>
